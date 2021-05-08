@@ -1,0 +1,8 @@
+print(4<5<6)
+print(4<5>6)
+print(4<5 and 5<6)
+print(4<5 or 5>6)
+print(not 5<6)
+a=(4<5 and 5<6)
+b=(4<5 or 5>6)
+print(not (a and b))
