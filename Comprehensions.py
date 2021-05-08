@@ -25,8 +25,8 @@ print(sett)
 
 # generator making
 tup = (i for i in range(20) if i % 2 == 1)
-# print(tup.__next__())
-# print(tup.__next__())
-# print(tup.__next__())
-# for i in tup:
-#     print(i)
+print(tup.__next__())
+print(tup.__next__())
+print(tup.__next__())
+for i in tup:
+    print(i)
